@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,YOPQ@8..144,151,100,52&display=swap');
+
+@font-face {
+    font-family: 'Hugo';
+    src: url('../static/fonts/HugoRegular.woff2') format('woff2'),
+        url('../static/fonts/HugoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin sm-plainText
+{
+    font-family: 'neue-haas-grotesk-display';
+    font-weight:100;
+    font-size:18px;
+    line-height: 27px;
+}
